@@ -3,36 +3,33 @@ import Head from "next/head";
 import Heading from "../../../components/Heading";
 import TeamCard from "../../../components/TeamCard";
 
-const Advisors = () => {
+const advisors = () => {
   return (
     <div className="container">
       <Head>
-        <title>Cofresi Palm Beach - Advisors</title>
+        <title>Tropical - Advisors</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <Heading
-        mainHeading="Cofresi Palm Beach Advisors"
-        subHeading="Our advisors."
-      />
+      <Heading mainHeading="Tropical Advisors" subHeading="Our advisors." />
       <div className="flex-column justify-center align-center">
         <div className="flex-row justify-center align-center">
           <TeamCard
-            personName="Adrian"
-            img="/images/team/cpb/c-a-adrian.jpg"
+            personName="Guilberto"
+            img="/images/team/tropical/t-a-guilberto.jpg"
             contactable="true"
-            number="https://wa.me/18298707134"
+            number="https://wa.me/18099010166"
           />
           <TeamCard
-            personName="Adry"
-            img="/images/team/cpb/c-a-adry.jpg"
+            personName="Jancarlos"
+            img="/images/team/tropical/t-a-jancarlos.jpg"
             contactable="true"
-            number="https://wa.me/18096101574"
+            number="https://wa.me/18296046662"
           />
           <TeamCard
-            personName="Victor"
-            img="/images/team/cpb/c-a-victor.jpg"
+            personName="Jean"
+            img="/images/team/tropical/t-a-jean.jpg"
             contactable="true"
-            number="https://wa.me/18093992640"
+            number="https://wa.me/18299016556"
           />
         </div>
       </div>
@@ -40,4 +37,4 @@ const Advisors = () => {
   );
 };
 
-export default Advisors;
+export default advisors;

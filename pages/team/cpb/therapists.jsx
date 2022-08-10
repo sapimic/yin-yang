@@ -13,11 +13,35 @@ const Therapists = () => {
 
       <Heading
         mainHeading="Cofresi Palm Beach Therapists"
-        subHeading="Therapists from the Cofresi Palm Beach Spa."
+        subHeading="Our therapists."
       />
       <div className="flex-column justify-center align-center">
         <div className="flex-row justify-center align-center">
-          <TeamCard />
+          <TeamCard personName="Darys" img="/images/team/cpb/c-darys.jpg" />
+          <TeamCard personName="Florian" img="/images/team/cpb/c-florian.jpg" />
+          <TeamCard personName="Lisbeth" img="/images/team/cpb/c-lisbeth.jpg" />
+          <TeamCard
+            personName="Lysmalier"
+            img="/images/team/cpb/c-lysmalier.jpg"
+          />
+          <TeamCard personName="Mariana" img="/images/team/cpb/c-mariana.jpg" />
+          <TeamCard
+            personName="Marianela"
+            img="/images/team/cpb/c-marianela.jpg"
+          />
+          <TeamCard personName="Maribel" img="/images/team/cpb/c-maribel.jpg" />
+          <TeamCard
+            personName="Maricela"
+            img="/images/team/cpb/c-maricela.jpg"
+          />
+          <TeamCard
+            personName="Niurquys"
+            img="/images/team/cpb/c-niurquys.jpg"
+          />
+          <TeamCard personName="Rosa" img="/images/team/cpb/c-rosa.jpg" />
+          <TeamCard personName="Suna" img="/images/team/cpb/c-suna.jpg" />
+          <TeamCard personName="Yemi" img="/images/team/cpb/c-yemi.jpg" />
+          <TeamCard personName="Yuliana" img="/images/team/cpb/c-yuliana.jpg" />
         </div>
       </div>
     </div>

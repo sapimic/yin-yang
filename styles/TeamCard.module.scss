@@ -1,0 +1,21 @@
+@import "mixins";
+
+.team_image {
+    transition: all 0.3s;
+    margin: 0 20px;
+    width: 400px;
+}
+
+.person_name {
+    margin: 10px 20px;
+}
+
+.team_button {
+    margin: 0 20px;
+}
+
+@include mobile-view {
+    .team_image {
+        width: 90%;
+    }
+}

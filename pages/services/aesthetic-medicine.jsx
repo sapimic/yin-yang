@@ -3,6 +3,7 @@ import Head from "next/head";
 import Heading from "../../components/Heading";
 import Link from "next/link";
 import { FaUsers } from "react-icons/fa";
+import ServiceCard from "../../components/ServiceCard";
 
 const AestheticMedicine = () => {
   return (
@@ -18,9 +19,14 @@ const AestheticMedicine = () => {
       />
 
       <div className="flex-column justify-center align-center">
-        <div className="flex-row justify-center align-center gap-100"></div>
+        <div className="flex-row justify-center align-center">
+          <ServiceCard img="/images/services/aesthetic-medicine/am-1.jpg" />
+          <ServiceCard img="/images/services/aesthetic-medicine/am-2.jpg" />
+          <ServiceCard img="/images/services/aesthetic-medicine/am-3.jpg" />
+          <ServiceCard img="/images/services/aesthetic-medicine/am-4.jpg" />
+        </div>
         <Link href="/team">
-          <a className="button mt-40">
+          <a className="button">
             <FaUsers
               style={{
                 verticalAlign: "middle",

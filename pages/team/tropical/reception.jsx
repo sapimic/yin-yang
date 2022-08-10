@@ -3,27 +3,31 @@ import Head from "next/head";
 import Heading from "../../../components/Heading";
 import TeamCard from "../../../components/TeamCard";
 
-const Reception = () => {
+const reception = () => {
   return (
     <div className="container">
       <Head>
-        <title>Cofresi Palm Beach - Reception</title>
+        <title>Tropical - Reception</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
-
       <Heading
-        mainHeading="Cofresi Palm Beach Reception"
+        mainHeading="Tropical Reception"
         subHeading="Our reception staff."
       />
-
       <div className="flex-column justify-center align-center">
         <div className="flex-row justify-center align-center">
-          <TeamCard personName="Elaine" img="/images/team/cpb/c-r-elaine.jpg" />
-          <TeamCard personName="Martha" img="/images/team/cpb/c-r-martha.jpg" />
+          <TeamCard
+            personName="Carla"
+            img="/images/team/tropical/t-r-carla.jpg"
+          />
+          <TeamCard
+            personName="Marleny"
+            img="/images/team/tropical/t-r-marleny.jpg"
+          />
         </div>
       </div>
     </div>
   );
 };
 
-export default Reception;
+export default reception;
