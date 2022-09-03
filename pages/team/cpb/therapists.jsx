@@ -24,7 +24,10 @@ const Therapists = () => {
             personName="Lysmalier"
             img="/images/team/cpb/c-lysmalier.jpg"
           />
-          <TeamCard personName="Mariana" img="/images/team/cpb/c-mariana.jpg" />
+          <TeamCard
+            personName="Idania"
+            img="/images/team/cpb/c-idania.jpg"
+          />
           <TeamCard
             personName="Marianela"
             img="/images/team/cpb/c-marianela.jpg"

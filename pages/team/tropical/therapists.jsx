@@ -32,20 +32,25 @@ const therapists = () => {
             img="/images/team/tropical/t-diana.jpg"
           />
           <TeamCard
+            personName="Denia"
+            img="/images/team/tropical/t-denia.jpg"
+          />
+          <TeamCard
+            personName="Gleibi"
+            img="/images/team/tropical/t-gleibi.jpg"
+          />
+          <TeamCard
             personName="Doraliza"
             img="/images/team/tropical/t-doraliza.jpg"
           />
-          <TeamCard
-            personName="Idania"
-            img="/images/team/tropical/t-idania.jpg"
-          />
+          <TeamCard personName="Mariana" img="/images/team/tropical/t-mariana.jpg" />
           <TeamCard
             personName="Karen"
             img="/images/team/tropical/t-karen.jpg"
           />
           <TeamCard
-            personName="Natali"
-            img="/images/team/tropical/t-natali.jpg"
+            personName="Naftaly"
+            img="/images/team/tropical/t-naftaly.jpg"
           />
           <TeamCard personName="Nery" img="/images/team/tropical/t-nery.jpg" />
           <TeamCard

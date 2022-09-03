@@ -14,8 +14,8 @@ const advisors = () => {
       <div className="flex-column justify-center align-center">
         <div className="flex-row justify-center align-center">
           <TeamCard
-            personName="Guilberto"
-            img="/images/team/tropical/t-a-guilberto.jpg"
+            personName="Gilberto"
+            img="/images/team/tropical/t-a-gilberto.jpg"
             contactable="true"
             number="https://wa.me/18099010166"
           />
