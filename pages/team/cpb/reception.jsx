@@ -18,8 +18,18 @@ const Reception = () => {
 
       <div className="flex-column justify-center align-center">
         <div className="flex-row justify-center align-center">
-          <TeamCard personName="Elaine" img="/images/team/cpb/c-r-elaine.jpg" />
-          <TeamCard personName="Martha" img="/images/team/cpb/c-r-martha.jpg" />
+          <TeamCard
+            personName="Elaine"
+            img="/images/team/cpb/c-r-elaine.jpg"
+            number="https://wa.me/18099728327"
+            contactable="true"
+          />
+          <TeamCard
+            personName="Martha"
+            img="/images/team/cpb/c-r-martha.jpg"
+            number="https://wa.me/18098663867"
+            contactable="true"
+          />
         </div>
       </div>
     </div>

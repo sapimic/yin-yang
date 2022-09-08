@@ -19,10 +19,14 @@ const reception = () => {
           <TeamCard
             personName="Carla"
             img="/images/team/tropical/t-r-carla.jpg"
+            number="https://wa.me/18099494701"
+            contactable="true"
           />
           <TeamCard
             personName="Marleny"
             img="/images/team/tropical/t-r-marleny.jpg"
+            number="https://wa.me/18094312585"
+            contactable="true"
           />
         </div>
       </div>
