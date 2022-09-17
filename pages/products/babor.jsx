@@ -27,6 +27,114 @@ const Babor = () => {
             price="$112"
           />
           <ProductCard
+            img="/images/products/babor/egf-collagen.jpg"
+            name="EGF & Collagen Cream"
+            type="Lifting & firming, anti-aging"
+            price="$153"
+          />
+          <ProductCard
+            img="/images/products/babor/u-repair-cleanser.jpg"
+            name="Repair Cleanser"
+            type="Repair RX"
+            price="$54"
+          />
+          <ProductCard
+            img="/images/products/babor/stress-repair-lotion.jpg"
+            name="De-Stress & Repair Lotion"
+            type="Refreshes the skin"
+            price="$43"
+          />
+          <ProductCard
+            img="/images/products/babor/cellulite-lotion.jpg"
+            name="3D Cellulite Lotion"
+            type="Active concentrate"
+            price="$97"
+          />
+          <ProductCard
+            img="/images/products/babor/cellulite-fluid.jpg"
+            name="3D Cellulite Fluid"
+            type="Active concentrate"
+            price="$76"
+          />
+          <ProductCard
+            img="/images/products/babor/glow-cream.jpg"
+            name="Glow Cream"
+            type="Hydration, luminosity"
+            price="$40"
+          />
+          <ProductCard
+            img="/images/products/babor/cleansing-milk.jpg"
+            name="Cleansing Milk"
+            type="Cleaning milk"
+            price="$93"
+          />
+          <ProductCard
+            img="/images/products/babor/gel-tonic.jpg"
+            name="Gel & Tonic"
+            type="Skin perfectioner"
+            price="$42"
+          />
+          <ProductCard
+            img="/images/products/babor/shaping-body.jpg"
+            name="Shaping For Body"
+            type="Body shaping lotion"
+            price="$92"
+          />
+          <ProductCard
+            img="/images/products/babor/detox-v-cream.jpg"
+            name="Detox Vitamin Cream"
+            type="Detoxification cream"
+            price="$17"
+          />
+          <ProductCard
+            img="/images/products/babor/lift-express.jpg"
+            name="Lift Express"
+            type="Softer skin"
+            price="$72"
+          />
+          <ProductCard
+            img="/images/products/babor/active-purifier.jpg"
+            name="Active Purifier"
+            type="For imperfections"
+            price="$44"
+          />
+          <ProductCard
+            img="/images/products/babor/collagen-concetrate.jpg"
+            name="Collagen Concetrate"
+            type="Better juicy skin"
+            price="$61"
+          />
+          <ProductCard
+            img="/images/products/babor/perfect-glow.jpg"
+            name="Perfect Glow"
+            type="Helps dry skin"
+            price="$48"
+          />
+          <ProductCard
+            img="/images/products/babor/3d-firming.jpg"
+            name="3D Firming"
+            type="Facial firming"
+            price="$76"
+          />
+          <ProductCard
+            img="/images/products/babor/vitalizing-cream.jpg"
+            name="Vitalizing Cream"
+            type="Facial treatment cream"
+            price="$92"
+          />
+          <ProductCard
+            img="/images/products/babor/mimical-c-cream.jpg"
+            name="Control Cream"
+            type="Anti-aging, hydration"
+            price="$96"
+          />
+          <ProductCard
+            img="/images/products/babor/soothing-cream.jpg"
+            name="Soothing Cream"
+            type="Reduces tightness"
+            price="$78"
+          />
+          <ProductCard
             img="/images/products/babor/balancing-cream.jpg"
             name="Balancing Cream"
             type="Age preventing"
@@ -49,16 +157,6 @@ const Babor = () => {
             name="Refine Cellular"
             type="Detox vitamin cream"
             price="$149"
-          />
-          <ProductCard
-            img="/images/products/babor/gentle-peeling.jpg"
-            name="Gentle Peeling"
-            type="Cleansing"
-          />
-          <ProductCard
-            img="/images/products/babor/hand-cream.jpg"
-            name="Hand Cream"
-            type="Hand cleaning"
           />
           <ProductCard
             img="/images/products/babor/hydration-ampoules.jpg"
@@ -97,20 +195,10 @@ const Babor = () => {
             price="$72"
           />
           <ProductCard
-            img="/images/products/babor/refine-cellular.jpg"
-            name="Refine Cellular"
-            type="Enzyme peeling balm"
-          />
-          <ProductCard
             img="/images/products/babor/rose-toning.jpg"
             name="Rose Toning Essence"
             type="Cleansing"
             price="$33"
-          />
-          <ProductCard
-            img="/images/products/babor/sos-ampoules.jpg"
-            name="SOS Calming"
-            type="Sensitive skin"
           />
           <ProductCard
             img="/images/products/babor/spa-shaping.jpg"

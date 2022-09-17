@@ -23,7 +23,7 @@ const reception = () => {
             contactable="true"
           />
           <TeamCard
-            personName="Marleny"
+            personName="Marlene"
             img="/images/team/tropical/t-r-marleny.jpg"
             number="https://wa.me/18094312585"
             contactable="true"

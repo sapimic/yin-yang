@@ -14,6 +14,12 @@ const advisors = () => {
       <div className="flex-column justify-center align-center">
         <div className="flex-row justify-center align-center">
           <TeamCard
+            personName="Jean"
+            img="/images/team/tropical/t-a-jean.jpg"
+            contactable="true"
+            number="https://wa.me/18299016556"
+          />
+          <TeamCard
             personName="Gilberto"
             img="/images/team/tropical/t-a-gilberto.jpg"
             contactable="true"
@@ -24,12 +30,6 @@ const advisors = () => {
             img="/images/team/tropical/t-a-jancarlos.jpg"
             contactable="true"
             number="https://wa.me/18296046662"
-          />
-          <TeamCard
-            personName="Jean"
-            img="/images/team/tropical/t-a-jean.jpg"
-            contactable="true"
-            number="https://wa.me/18299016556"
           />
         </div>
       </div>
