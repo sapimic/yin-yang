@@ -4,6 +4,7 @@ import Heading from "../../components/Heading";
 import Link from "next/link";
 import { FaUsers } from "react-icons/fa";
 import ServiceCard from "../../components/ServiceCard";
+import VideoCard from "../../components/VideoCard";
 
 const AestheticMedicine = () => {
   return (
@@ -20,6 +21,8 @@ const AestheticMedicine = () => {
 
       <div className="flex-column justify-center align-center">
         <div className="flex-row justify-center align-center">
+          <VideoCard link="https://www.youtube.com/embed/MG4lnGePGkw?mute=1" />
+          <VideoCard link="https://www.youtube.com/embed/MG4lnGePGkw?mute=1" />
           <ServiceCard img="/images/services/aesthetic-medicine/am-1.jpg" />
           <ServiceCard img="/images/services/aesthetic-medicine/am-2.jpg" />
           <ServiceCard img="/images/services/aesthetic-medicine/am-3.jpg" />

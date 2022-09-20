@@ -30,6 +30,7 @@
         a {
             display: inline-block;
             padding: 20px 0px;
+            font-size: 15px;
             transition: all 0.3s;
             width: 100%;
             border-radius: 100%;
@@ -45,10 +46,10 @@
     color: #F8324A;
   }
 
-.test {
-    font-size: 22px;
+.icon {
+    font-size: 20px;
     margin-right: 10px;
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 

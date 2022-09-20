@@ -18,7 +18,7 @@ const Navbar = () => {
           <li className={styles.li}>
             <Link href="/">
               <a className={router.pathname == "/" ? styles.active : ""}>
-                <FaHome className={styles.test} />
+                <FaHome className={styles.icon} />
                 Home
               </a>
             </Link>
@@ -30,7 +30,7 @@ const Navbar = () => {
                   router.pathname.startsWith("/services") ? styles.active : ""
                 }
               >
-                <FaList className={styles.test} />
+                <FaList className={styles.icon} />
                 Services
               </a>
             </Link>
@@ -42,7 +42,7 @@ const Navbar = () => {
                   router.pathname.startsWith("/products") ? styles.active : ""
                 }
               >
-                <FaSpa className={styles.test} />
+                <FaSpa className={styles.icon} />
                 Products
               </a>
             </Link>
@@ -54,7 +54,7 @@ const Navbar = () => {
                   router.pathname.startsWith("/team") ? styles.active : ""
                 }
               >
-                <FaUserFriends className={styles.test} />
+                <FaUserFriends className={styles.icon} />
                 Team
               </a>
             </Link>
