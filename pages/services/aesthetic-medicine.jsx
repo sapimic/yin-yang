@@ -21,8 +21,14 @@ const AestheticMedicine = () => {
 
       <div className="flex-column justify-center align-center">
         <div className="flex-row justify-center align-center">
-          <VideoCard link="https://www.youtube.com/embed/MG4lnGePGkw?mute=1" />
-          <VideoCard link="https://www.youtube.com/embed/MG4lnGePGkw?mute=1" />
+          <VideoCard link="https://www.youtube.com/embed/dhoXCTjLM0M?mute=1" />
+          <VideoCard link="https://www.youtube.com/embed/hSMBHvY0fVE?mute=1" />
+          <VideoCard link="https://www.youtube.com/embed/FrGd03boNAc?mute=1" />
+          <VideoCard link="https://www.youtube.com/embed/--L6kfmbiyg?mute=1" />
+          <VideoCard link="https://www.youtube.com/embed/MO8L83--R1Y?mute=1" />
+          <VideoCard link="https://www.youtube.com/embed/l2Y-YJiP-gU?mute=1" />
+          <VideoCard link="https://www.youtube.com/embed/_TOe6INTdQ0?mute=1" />
+          <VideoCard link="https://www.youtube.com/embed/m8mehoc-b4g?mute=1" />
           <ServiceCard img="/images/services/aesthetic-medicine/am-1.jpg" />
           <ServiceCard img="/images/services/aesthetic-medicine/am-2.jpg" />
           <ServiceCard img="/images/services/aesthetic-medicine/am-3.jpg" />
