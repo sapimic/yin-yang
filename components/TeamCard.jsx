@@ -2,11 +2,14 @@ import React, { useState } from "react";
 import styles from "../styles/TeamCard.module.scss";
 import { FaMobileAlt } from "react-icons/fa";
 
-const TeamCard = ({ img, number, personName, contactable }) => {
+const TeamCard = ({ img, number, personName, contactable, role }) => {
   return (
     <div className={styles.team_container}>
       <img src={img} loading="lazy" className={styles.team_image} />
-      <p className={styles.person_name}>{personName}</p>
+      <p className={styles.text}>{personName}</p>
+      <p className={styles.text}>
+        <b>{role}</b>
+      </p>
       {contactable === "true" && (
         <a href={`${number}`} className={`${styles.team_button} button`}>
           <FaMobileAlt

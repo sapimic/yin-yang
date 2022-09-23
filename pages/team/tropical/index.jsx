@@ -13,7 +13,7 @@ const index = () => {
 
       <Heading
         mainHeading="Tropical Team"
-        subHeading="Choose from our reception, advisors and therapists."
+        subHeading="Choose from our managers, reception, advisors and therapists."
       />
 
       <div className="flex-column justify-center align-center">
@@ -32,6 +32,11 @@ const index = () => {
             img="/images/team/therapists.jpg"
             link="/team/tropical/therapists"
             linkText="Our Therapists"
+          />
+          <SelectionCard
+            img="/images/team/managers.jpg"
+            link="/team/tropical/managers"
+            linkText="Our Managers"
           />
         </div>
       </div>

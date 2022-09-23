@@ -72,10 +72,6 @@ const therapists = () => {
             personName="Mariana"
             img="/images/team/tropical/t-mariana.jpg"
           />
-          <TeamCard
-            personName="Aleida"
-            img="/images/team/tropical/t-aleida.jpg"
-          />
         </div>
       </div>
     </div>
