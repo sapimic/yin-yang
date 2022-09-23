@@ -48,13 +48,13 @@ const Babor = () => {
             img="/images/products/babor/cellulite-lotion.jpg"
             name="3D Cellulite Lotion"
             type="Active concentrate"
-            price="$97"
+            price="$107"
           />
           <ProductCard
             img="/images/products/babor/cellulite-fluid.jpg"
             name="3D Cellulite Fluid"
             type="Active concentrate"
-            price="$76"
+            price="$96"
           />
           <ProductCard
             img="/images/products/babor/glow-cream.jpg"
@@ -66,19 +66,19 @@ const Babor = () => {
             img="/images/products/babor/cleansing-milk.jpg"
             name="Cleansing Milk"
             type="Cleaning milk"
-            price="$93"
+            price="$38"
           />
           <ProductCard
             img="/images/products/babor/gel-tonic.jpg"
             name="Gel & Tonic"
             type="Skin perfectioner"
-            price="$42"
+            price="$38"
           />
           <ProductCard
             img="/images/products/babor/shaping-body.jpg"
             name="Shaping For Body"
             type="Body shaping lotion"
-            price="$92"
+            price="$28"
           />
           <ProductCard
             img="/images/products/babor/detox-v-cream.jpg"
@@ -204,7 +204,7 @@ const Babor = () => {
             img="/images/products/babor/spa-shaping.jpg"
             name="Spa Shaping"
             type="Body cream"
-            price="$210"
+            price="$65"
           />
           <ProductCard
             img="/images/products/babor/spot-corrector.jpg"
