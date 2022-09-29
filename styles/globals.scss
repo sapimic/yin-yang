@@ -23,15 +23,8 @@ a {
 
 .container{
   width: 100%;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
   padding-left: 220px;
-}
-
-@include mobile-view {
-  .container {
-    display: block;
-    padding-left: 0;
-  }
 }
 
 .button {
@@ -46,4 +39,13 @@ a {
     background-color: darken($main-color, 10%);
   }
 }
+
+@include mobile-view {
+  .container {
+    display: block;
+    margin-bottom: 120px;
+    padding-left: 0;
+  }
+}
+
 

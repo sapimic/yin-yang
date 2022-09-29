@@ -1,17 +1,26 @@
 @import "mixins";
 
+.team_container {
+    margin: 0 10px;
+    text-align: center;
+}
+
 .team_image {
     transition: all 0.3s;
-    margin: 0 20px;
     width: 400px;
 }
 
 .text {
-    margin: 10px 20px;
+   margin: 10px;
+}
+
+.button_container {
+    margin-top: -10px;
 }
 
 .team_button {
-    margin: 0 20px;
+    margin-top: 10px;
+    width: 90%;
 }
 
 @include mobile-view {

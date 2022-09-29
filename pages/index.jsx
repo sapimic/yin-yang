@@ -9,6 +9,7 @@ import VideoHero from "../components/VideoHero";
 import Image from "next/image";
 import { FaMobileAlt } from "react-icons/fa";
 import styles from "../styles/Home.module.scss";
+import Popup from "../components/Popup";
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
         <title>Yin Yang Spa</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
+
+      <Popup />
 
       <div className={styles.logo}>
         <Image src={logo} alt="Vercel Logo" width={160} height={100} />

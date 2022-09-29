@@ -17,7 +17,7 @@ const Managers = () => {
       />
 
       <div className="flex-column justify-center align-center">
-        <div className="flex-row justify-center align-center">
+        <div className="flex-row justify-center">
           <TeamCard
             personName="Yajaime"
             role="Manager"

@@ -23,12 +23,18 @@ const Reception = () => {
             img="/images/team/cpb/c-r-elaine.jpg"
             number="https://wa.me/18099728327"
             contactable="true"
+            mailable="true"
+            mail="mailto:recepcionista.yinyangspa@
+            lhvcresorts.com"
           />
           <TeamCard
             personName="Martha"
             img="/images/team/cpb/c-r-martha.jpg"
             number="https://wa.me/18098663867"
             contactable="true"
+            mailable="true"
+            mail="mailto:recepcionista.yinyangspa@
+            lhvcresorts.com"
           />
         </div>
       </div>

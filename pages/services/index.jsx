@@ -18,6 +18,11 @@ const index = () => {
       <div className="flex-column justify-center align-center">
         <div className="flex-row justify-center align-center">
           <SelectionCard
+            img="/images/services/spa-menu.jpg"
+            link="/services/menu"
+            linkText="Spa Menu"
+          />
+          <SelectionCard
             img="/images/services/aesthetic-medicine.jpg"
             link="/services/aesthetic-medicine"
             linkText="Aesthetic Medicine"

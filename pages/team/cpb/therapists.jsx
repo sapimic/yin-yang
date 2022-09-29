@@ -42,7 +42,6 @@ const Therapists = () => {
             personName="Niurquys"
             img="/images/team/cpb/c-niurquys.jpg"
           />
-          <TeamCard personName="Lisbeth" img="/images/team/cpb/c-lisbeth.jpg" />
           <TeamCard
             personName="Aracelis"
             img="/images/team/cpb/c-aracelis.jpg"
