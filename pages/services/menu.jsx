@@ -2,7 +2,8 @@ import React from "react";
 import Head from "next/head";
 import Heading from "../../components/Heading";
 import MenuItem from "../../components/MenuItem";
-import styles from "../../styles/Menu.module.scss";
+import Link from "next/link";
+import { FaUsers } from "react-icons/fa";
 
 const menu = () => {
   return (
@@ -89,6 +90,19 @@ const menu = () => {
             <p>Additional Nail Care Services</p>
           </MenuItem>
         </div>
+
+        <Link href="/team">
+          <a className="button">
+            <FaUsers
+              style={{
+                verticalAlign: "middle",
+                fontSize: "20px",
+                marginRight: "10px",
+              }}
+            />
+            Contact Team
+          </a>
+        </Link>
       </div>
     </div>
   );
