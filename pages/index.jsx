@@ -10,6 +10,7 @@ import Image from "next/image";
 import { FaMobileAlt } from "react-icons/fa";
 import styles from "../styles/Home.module.scss";
 import Popup from "../components/Popup";
+import SelectionCard from "../components/SelectionCard";
 
 export default function Home() {
   return (
@@ -26,6 +27,21 @@ export default function Home() {
       </div>
 
       <LandingHero />
+
+      <Heading
+        mainHeading="Our spa menu"
+        subHeading="A quick look at all the services and packages our spa offers."
+      />
+
+      <div className="flex-column justify-center align-center">
+        <div className="flex-row space-evenly">
+          <SelectionCard
+            img="/images/services/spa-menu.jpg"
+            link="/services/menu"
+            linkText="Our Spa Menu"
+          />
+        </div>
+      </div>
 
       <Heading
         mainHeading="Enjoy in the right places"
@@ -58,7 +74,7 @@ export default function Home() {
           />
         </div>
         <Link href="/team">
-          <a className="button mt-40">
+          <a className="button mt-20">
             <FaMobileAlt
               style={{
                 verticalAlign: "middle",
