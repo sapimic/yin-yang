@@ -14,7 +14,7 @@ const Managers = () => {
       <Heading mainHeading="Tropical Managers" subHeading="Our managers." />
 
       <div className="flex-column justify-center align-center">
-        <div className="flex-row justify-center align-center">
+        <div className="flex-row justify-center">
           <TeamCard
             personName="Alexis"
             role="Manager"
