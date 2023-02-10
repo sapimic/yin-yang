@@ -1,0 +1,28 @@
+@import "theme";
+@import "mixins";
+
+.banner_container {
+    padding-left: 220px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.banner {
+    text-align: center;
+    background-color: $main-color;
+    padding: 10px;  
+    color: white;
+}
+
+.icon {
+    display: inline;
+    font-size: 30px;
+    color: rgb(255, 151, 151);
+}
+
+@include mobile-view
+{
+    .banner_container {
+        padding-left: 0;
+    }
+}
