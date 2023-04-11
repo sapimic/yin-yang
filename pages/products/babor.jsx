@@ -30,7 +30,13 @@ const Babor = () => {
             img="/images/products/babor/egf-collagen.jpg"
             name="EGF & Collagen Cream"
             type="Lifting & firming, anti-aging"
-            price="$153"
+            price="$178"
+          />
+          <ProductCard
+            img="/images/products/babor/gentle-peeling.jpg"
+            name="Gentle Peeling Cream"
+            type="Even complexion, pore refining"
+            price="$37"
           />
           <ProductCard
             img="/images/products/babor/u-repair-cleanser.jpg"
@@ -42,7 +48,7 @@ const Babor = () => {
             img="/images/products/babor/stress-repair-lotion.jpg"
             name="De-Stress & Repair Lotion"
             type="Refreshes the skin"
-            price="$43"
+            price="$51"
           />
           <ProductCard
             img="/images/products/babor/cellulite-lotion.jpg"
@@ -54,7 +60,7 @@ const Babor = () => {
             img="/images/products/babor/cellulite-fluid.jpg"
             name="3D Cellulite Fluid"
             type="Active concentrate"
-            price="$96"
+            price="$108"
           />
           <ProductCard
             img="/images/products/babor/glow-cream.jpg"
@@ -72,7 +78,7 @@ const Babor = () => {
             img="/images/products/babor/gel-tonic.jpg"
             name="Gel & Tonic"
             type="Skin perfectioner"
-            price="$38"
+            price="$45"
           />
           <ProductCard
             img="/images/products/babor/shaping-body.jpg"
@@ -84,7 +90,7 @@ const Babor = () => {
             img="/images/products/babor/detox-v-cream.jpg"
             name="Detox Vitamin Cream"
             type="Detoxification cream"
-            price="$17"
+            price="$155"
           />
           <ProductCard
             img="/images/products/babor/lift-express.jpg"
@@ -120,7 +126,7 @@ const Babor = () => {
             img="/images/products/babor/vitalizing-cream.jpg"
             name="Vitalizing Cream"
             type="Facial treatment cream"
-            price="$92"
+            price="$94"
           />
           <ProductCard
             img="/images/products/babor/mimical-c-cream.jpg"
@@ -132,7 +138,7 @@ const Babor = () => {
             img="/images/products/babor/soothing-cream.jpg"
             name="Soothing Cream"
             type="Reduces tightness"
-            price="$78"
+            price="$94"
           />
           <ProductCard
             img="/images/products/babor/balancing-cream.jpg"
@@ -168,7 +174,7 @@ const Babor = () => {
             img="/images/products/babor/m-eye-cream.jpg"
             name="Moisturizing Eye Cream"
             type="Age Preventing"
-            price="$67"
+            price="$68"
           />
           <ProductCard
             img="/images/products/babor/protecting-balm-30.jpg"
@@ -186,7 +192,13 @@ const Babor = () => {
             img="/images/products/babor/purifying-cream.jpg"
             name="Purifying Cream"
             type="Age preventing"
-            price="$92"
+            price="$94"
+          />
+          <ProductCard
+            img="/images/products/babor/active-night.jpg"
+            name="Fluid Active Night"
+            type="Anti-aging"
+            price="$52"
           />
           <ProductCard
             img="/images/products/babor/r-eye-cream.jpg"
@@ -204,25 +216,31 @@ const Babor = () => {
             img="/images/products/babor/spa-shaping.jpg"
             name="Spa Shaping"
             type="Body cream"
-            price="$65"
+            price="$69"
           />
           <ProductCard
             img="/images/products/babor/spot-corrector.jpg"
             name="Refine cellular"
             type="Age spot corrector"
-            price="$63"
+            price="$85"
           />
           <ProductCard
             img="/images/products/babor/ultimate-repair.jpg"
             name="Repair Cellular"
             type="Ultimate repair cream"
-            price="$180"
+            price="$187"
+          />
+          <ProductCard
+            img="/images/products/babor/hand-cream.jpg"
+            name="Shaping Hand Cream"
+            type="Hydration"
+            price="$62"
           />
           <ProductCard
             img="/images/products/babor/v-eye-cream.jpg"
             name="Vitalizing Eye Cream"
             type="Eye cream"
-            price="$61"
+            price="$63"
           />
           <ProductCard
             img="/images/products/babor/vitamin-ampoules.jpg"

@@ -24,6 +24,7 @@ const Anubis = () => {
             img="/images/products/anubis/antioxidant-cream.jpg"
             name="Antioxidant Cream"
             type="Polivitaminic vitamin C line"
+            price="$59"
           />
           <ProductCard
             img="/images/products/anubis/beauty-flash.jpg"
@@ -41,7 +42,7 @@ const Anubis = () => {
             img="/images/products/anubis/eye-contour-pack.jpg"
             name="Eye Contour Pack"
             type="Excellence anti-aging"
-            price="$43"
+            price="$48"
           />
           <ProductCard
             img="/images/products/anubis/eye-contour.jpg"
@@ -116,6 +117,7 @@ const Anubis = () => {
             img="/images/products/anubis/zul-cream.jpg"
             name="Moisturizer Cream"
             type="Sensitive zul"
+            price="$42"
           />
         </div>
         <Link href="/team">
