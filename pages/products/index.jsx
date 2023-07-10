@@ -10,6 +10,7 @@ const index = () => {
         <title>Yin Yang Spa - Products</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
+
       <Heading
         mainHeading="Our Products"
         subHeading="Select one of the featured brands."

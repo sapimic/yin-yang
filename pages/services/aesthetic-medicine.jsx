@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Heading from "../../components/Heading";
 import Link from "next/link";
-import { FaUsers } from "react-icons/fa";
+import { FaArrowDown, FaLongArrowAltDown, FaUsers } from "react-icons/fa";
 import ServiceCard from "../../components/ServiceCard";
 import VideoCard from "../../components/VideoCard";
 
@@ -34,18 +34,30 @@ const AestheticMedicine = () => {
           <ServiceCard img="/images/services/aesthetic-medicine/am-3.jpg" />
           <ServiceCard img="/images/services/aesthetic-medicine/am-4.jpg" />
         </div>
-        <Link href="/team">
-          <a className="button">
-            <FaUsers
+        <div className="flex-row justify-center">
+          <Link href="/team">
+            <a className="button">
+              <FaUsers
+                style={{
+                  verticalAlign: "middle",
+                  fontSize: "20px",
+                  marginRight: "10px",
+                }}
+              />
+              Contact Team
+            </a>
+          </Link>
+          <a className="button" href="/files/medicine-menu.pdf" target="_blank">
+            <FaLongArrowAltDown
               style={{
                 verticalAlign: "middle",
                 fontSize: "20px",
                 marginRight: "10px",
               }}
             />
-            Contact Team
+            Download Menu
           </a>
-        </Link>
+        </div>
       </div>
     </div>
   );
