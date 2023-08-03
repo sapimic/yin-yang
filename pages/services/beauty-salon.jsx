@@ -17,10 +17,10 @@ const BeautySalon = () => {
 
       <div className="flex-column justify-center align-center">
         <div className="flex-row justify-center align-center">
-          <ServiceCard img="/images/services/beauty-salon/bs-1.jpg" />
-          <ServiceCard img="/images/services/beauty-salon/bs-2.jpg" />
-          <ServiceCard img="/images/services/beauty-salon/bs-3.jpg" />
-          <ServiceCard img="/images/services/beauty-salon/bs-4.jpg" />
+          <ServiceCard img="/images/services/beauty-salon/bs-1.webp" />
+          <ServiceCard img="/images/services/beauty-salon/bs-2.webp" />
+          <ServiceCard img="/images/services/beauty-salon/bs-3.webp" />
+          <ServiceCard img="/images/services/beauty-salon/bs-4.webp" />
         </div>
         <Link href="/team">
           <a className="button">

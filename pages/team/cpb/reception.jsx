@@ -20,7 +20,7 @@ const Reception = () => {
         <div className="flex-row justify-center align-center">
           <TeamCard
             personName="Elaine"
-            img="/images/team/cpb/c-r-elaine.jpg"
+            img="/images/team/cpb/c-r-elaine.webp"
             number="https://wa.me/18099728327"
             contactable="true"
             mailable="true"
@@ -29,7 +29,7 @@ const Reception = () => {
           />
           <TeamCard
             personName="Martha"
-            img="/images/team/cpb/c-r-martha.jpg"
+            img="/images/team/cpb/c-r-martha.webp"
             number="https://wa.me/18098663867"
             contactable="true"
             mailable="true"

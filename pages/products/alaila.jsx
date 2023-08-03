@@ -18,37 +18,37 @@ const Alaila = () => {
       <div className="flex-column justify-center align-center">
         <div className="flex-row justify-center align-center gap-150">
           <ProductCard
-            img="/images/products/alaila/aceite-masajes.jpg"
+            img="/images/products/alaila/aceite-masajes.webp"
             name="Oil Massage"
             type="Relaxing oils"
           />
           <ProductCard
-            img="/images/products/alaila/ceras.jpg"
+            img="/images/products/alaila/ceras.webp"
             name="Waxes"
             type="Wax healing"
           />
           <ProductCard
-            img="/images/products/alaila/exfoliante.jpg"
+            img="/images/products/alaila/exfoliante.webp"
             name="Scrub"
             type="Skin beautifier"
           />
           <ProductCard
-            img="/images/products/alaila/jabon-espumoso.jpg"
+            img="/images/products/alaila/jabon-espumoso.webp"
             name="Foamy Soap"
             type="Foamy line"
           />
           <ProductCard
-            img="/images/products/alaila/sales-aromaticas.jpg"
+            img="/images/products/alaila/sales-aromaticas.webp"
             name="Aromatic Salts"
             type="Stress reduction"
           />
           <ProductCard
-            img="/images/products/alaila/sweet-scrub.jpg"
+            img="/images/products/alaila/sweet-scrub.webp"
             name="Sweet Scrub"
             type="Essential oils"
           />
           <ProductCard
-            img="/images/products/alaila/tropical-peonias.jpg"
+            img="/images/products/alaila/tropical-peonias.webp"
             name="Tropical Peonias"
             type="Skin beautifier"
           />

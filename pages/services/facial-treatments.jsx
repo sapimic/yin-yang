@@ -20,10 +20,10 @@ const FacialTreatments = () => {
 
       <div className="flex-column justify-center align-center">
         <div className="flex-row justify-center align-center">
-          <ServiceCard img="/images/services/facial-treatments/ft-1.jpg" />
-          <ServiceCard img="/images/services/facial-treatments/ft-2.jpg" />
-          <ServiceCard img="/images/services/facial-treatments/ft-3.jpg" />
-          <ServiceCard img="/images/services/facial-treatments/ft-4.jpg" />
+          <ServiceCard img="/images/services/facial-treatments/ft-1.webp" />
+          <ServiceCard img="/images/services/facial-treatments/ft-2.webp" />
+          <ServiceCard img="/images/services/facial-treatments/ft-3.webp" />
+          <ServiceCard img="/images/services/facial-treatments/ft-4.webp" />
         </div>
         <Link href="/team">
           <a className="button">

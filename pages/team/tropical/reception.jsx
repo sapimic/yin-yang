@@ -18,7 +18,7 @@ const reception = () => {
         <div className="flex-row justify-center align-center">
           <TeamCard
             personName="Carla"
-            img="/images/team/tropical/t-r-carla.jpg"
+            img="/images/team/tropical/t-r-carla.webp"
             number="https://wa.me/18099494701"
             contactable="true"
             mailable="true"
@@ -27,7 +27,7 @@ const reception = () => {
           />
           <TeamCard
             personName="Marlene"
-            img="/images/team/tropical/t-r-marleny.jpg"
+            img="/images/team/tropical/t-r-marleny.webp"
             number="https://wa.me/18094312585"
             contactable="true"
             mailable="true"

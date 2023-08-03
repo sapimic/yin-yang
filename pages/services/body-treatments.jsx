@@ -29,10 +29,10 @@ const BodyTreatments = () => {
           <VideoCard link="https://www.youtube.com/embed/xSvg8Nki6o8?mute=1" />
           <VideoCard link="https://www.youtube.com/embed/hSMBHvY0fVE?mute=1" />
           <VideoCard link="https://www.youtube.com/embed/gwbOw1LsIoE?mute=1" />
-          <ServiceCard img="/images/services/body-treatments/bt-1.jpg" />
-          <ServiceCard img="/images/services/body-treatments/bt-2.jpg" />
-          <ServiceCard img="/images/services/body-treatments/bt-3.jpg" />
-          <ServiceCard img="/images/services/body-treatments/bt-4.jpg" />
+          <ServiceCard img="/images/services/body-treatments/bt-1.webp" />
+          <ServiceCard img="/images/services/body-treatments/bt-2.webp" />
+          <ServiceCard img="/images/services/body-treatments/bt-3.webp" />
+          <ServiceCard img="/images/services/body-treatments/bt-4.webp" />
         </div>
         <Link href="/team">
           <a className="button">

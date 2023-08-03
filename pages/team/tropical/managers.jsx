@@ -18,12 +18,12 @@ const Managers = () => {
           <TeamCard
             personName="Alexis"
             role="Manager"
-            img="/images/team/tropical/t-m-alexis.jpg"
+            img="/images/team/tropical/t-m-alexis.webp"
           />
           <TeamCard
             personName="Aleida"
             role="Assistent"
-            img="/images/team/tropical/t-m-aleida.jpg"
+            img="/images/team/tropical/t-m-aleida.webp"
             contactable="true"
             number="https://wa.me/18294714784"
           />

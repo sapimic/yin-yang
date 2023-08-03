@@ -6,7 +6,7 @@ const FlexGallery = () => {
     <div className={styles.flex_gallery}>
       <div className={styles.gallery_item}>
         <img
-          src="/images/home/bar.jpg"
+          src="/images/home/bar.webp"
           alt="Bar"
           loading="lazy"
           className={styles.gallery_img}
@@ -15,7 +15,7 @@ const FlexGallery = () => {
       </div>
       <div className={styles.gallery_item}>
         <img
-          src="/images/home/pool.jpg"
+          src="/images/home/pool.webp"
           alt="Bar"
           loading="lazy"
           className={styles.gallery_img}
@@ -24,7 +24,7 @@ const FlexGallery = () => {
       </div>
       <div className={styles.gallery_item}>
         <img
-          src="/images/home/jacuzzi.jpg"
+          src="/images/home/jacuzzi.webp"
           alt="Bar"
           loading="lazy"
           className={styles.gallery_img}
@@ -33,7 +33,7 @@ const FlexGallery = () => {
       </div>
       <div className={styles.gallery_item}>
         <img
-          src="/images/home/gym.jpg"
+          src="/images/home/gym.webp"
           alt="Bar"
           loading="lazy"
           className={styles.gallery_img}

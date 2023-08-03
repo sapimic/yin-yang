@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Heading from "../../components/Heading";
 import Link from "next/link";
-import { FaArrowDown, FaLongArrowAltDown, FaUsers } from "react-icons/fa";
+import { FaUsers } from "react-icons/fa";
 import ServiceCard from "../../components/ServiceCard";
 import VideoCard from "../../components/VideoCard";
 
@@ -29,10 +29,10 @@ const AestheticMedicine = () => {
           <VideoCard link="https://www.youtube.com/embed/l2Y-YJiP-gU?mute=1" />
           <VideoCard link="https://www.youtube.com/embed/_TOe6INTdQ0?mute=1" />
           <VideoCard link="https://www.youtube.com/embed/m8mehoc-b4g?mute=1" />
-          <ServiceCard img="/images/services/aesthetic-medicine/am-1.jpg" />
-          <ServiceCard img="/images/services/aesthetic-medicine/am-2.jpg" />
-          <ServiceCard img="/images/services/aesthetic-medicine/am-3.jpg" />
-          <ServiceCard img="/images/services/aesthetic-medicine/am-4.jpg" />
+          <ServiceCard img="/images/services/aesthetic-medicine/am-1.webp" />
+          <ServiceCard img="/images/services/aesthetic-medicine/am-2.webp" />
+          <ServiceCard img="/images/services/aesthetic-medicine/am-3.webp" />
+          <ServiceCard img="/images/services/aesthetic-medicine/am-4.webp" />
         </div>
         <div className="flex-row justify-center">
           <Link href="/team">
@@ -47,16 +47,6 @@ const AestheticMedicine = () => {
               Contact Team
             </a>
           </Link>
-          <a className="button" href="/files/medicine-menu.pdf" target="_blank">
-            <FaLongArrowAltDown
-              style={{
-                verticalAlign: "middle",
-                fontSize: "20px",
-                marginRight: "10px",
-              }}
-            />
-            Download Menu
-          </a>
         </div>
       </div>
     </div>

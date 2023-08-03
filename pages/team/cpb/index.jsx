@@ -19,22 +19,22 @@ const index = () => {
       <div className="flex-column justify-center align-center">
         <div className="flex-row justify-center align-center">
           <SelectionCard
-            img="/images/team/reception.jpg"
+            img="/images/team/reception.webp"
             link="/team/cpb/reception"
             linkText="Our Reception"
           />
           <SelectionCard
-            img="/images/team/advisors.jpg"
+            img="/images/team/advisors.webp"
             link="/team/cpb/advisors"
             linkText="Our Advisors"
           />
           <SelectionCard
-            img="/images/team/therapists.jpg"
+            img="/images/team/therapists.webp"
             link="/team/cpb/therapists"
             linkText="Our Therapists"
           />
           <SelectionCard
-            img="/images/team/managers.jpg"
+            img="/images/team/managers.webp"
             link="/team/cpb/managers"
             linkText="Our Managers"
           />

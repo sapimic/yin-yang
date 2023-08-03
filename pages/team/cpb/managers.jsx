@@ -21,12 +21,12 @@ const Managers = () => {
           <TeamCard
             personName="Yajaime"
             role="Manager"
-            img="/images/team/cpb/c-m-yajaime.jpg"
+            img="/images/team/cpb/c-m-yajaime.webp"
           />
           <TeamCard
             personName="Bethania"
             role="Assistent"
-            img="/images/team/cpb/c-m-bethania.jpg"
+            img="/images/team/cpb/c-m-bethania.webp"
             contactable="true"
             number="https://wa.me/18294260809"
           />

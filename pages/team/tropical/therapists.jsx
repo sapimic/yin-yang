@@ -17,60 +17,60 @@ const therapists = () => {
         <div className="flex-row justify-center align-center">
           <TeamCard
             personName="Diana"
-            img="/images/team/tropical/t-diana.jpg"
+            img="/images/team/tropical/t-diana.webp"
           />
           <TeamCard
             personName="Naftaly"
-            img="/images/team/tropical/t-naftaly.jpg"
+            img="/images/team/tropical/t-naftaly.webp"
           />
           <TeamCard
             personName="Albany"
-            img="/images/team/tropical/t-albany.jpg"
+            img="/images/team/tropical/t-albany.webp"
           />
           <TeamCard
             personName="Claritza"
-            img="/images/team/tropical/t-claritza.jpg"
+            img="/images/team/tropical/t-claritza.webp"
           />
           <TeamCard
             personName="Doraliza"
-            img="/images/team/tropical/t-doraliza.jpg"
+            img="/images/team/tropical/t-doraliza.webp"
           />
           <TeamCard
             personName="Karen"
-            img="/images/team/tropical/t-karen.jpg"
+            img="/images/team/tropical/t-karen.webp"
           />
           <TeamCard
             personName="Paola"
-            img="/images/team/tropical/t-paola.jpg"
+            img="/images/team/tropical/t-paola.webp"
           />
           <TeamCard
             personName="Gleibi"
-            img="/images/team/tropical/t-gleibi.jpg"
+            img="/images/team/tropical/t-gleibi.webp"
           />
           <TeamCard
             personName="Romelia"
-            img="/images/team/tropical/t-romelia.jpg"
+            img="/images/team/tropical/t-romelia.webp"
           />
           <TeamCard
             personName="Denia"
-            img="/images/team/tropical/t-denia.jpg"
+            img="/images/team/tropical/t-denia.webp"
           />
           <TeamCard
             personName="Raquel"
-            img="/images/team/tropical/t-raquel.jpg"
+            img="/images/team/tropical/t-raquel.webp"
           />
           <TeamCard
             personName="Yanelys"
-            img="/images/team/tropical/t-yanelys.jpg"
+            img="/images/team/tropical/t-yanelys.webp"
           />
-          <TeamCard personName="Nery" img="/images/team/tropical/t-nery.jpg" />
+          <TeamCard personName="Nery" img="/images/team/tropical/t-nery.webp" />
           <TeamCard
             personName="Vianka"
-            img="/images/team/tropical/t-vianka.jpg"
+            img="/images/team/tropical/t-vianka.webp"
           />
           <TeamCard
             personName="Mariana"
-            img="/images/team/tropical/t-mariana.jpg"
+            img="/images/team/tropical/t-mariana.webp"
           />
         </div>
       </div>

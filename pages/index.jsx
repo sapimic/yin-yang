@@ -37,7 +37,7 @@ export default function Home() {
       <div className="flex-column justify-center align-center">
         <div className="flex-row space-evenly">
           <SelectionCard
-            img="/images/services/spa-menu.jpg"
+            img="/images/services/spa-menu.webp"
             link="/services/menu"
             linkText="Our Spa Menu"
           />

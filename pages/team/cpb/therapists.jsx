@@ -15,39 +15,52 @@ const Therapists = () => {
         mainHeading="Cofresi Palm Beach Therapists"
         subHeading="Our therapists."
       />
+
       <div className="flex-column justify-center align-center">
         <div className="flex-row justify-center align-center">
-          <TeamCard personName="Suna" img="/images/team/cpb/c-suna.jpg" />
-          <TeamCard personName="Yemi" img="/images/team/cpb/c-yemi.jpg" />
-          <TeamCard personName="Idania" img="/images/team/cpb/c-idania.jpg" />
-          <TeamCard personName="Florian" img="/images/team/cpb/c-florian.jpg" />
-          <TeamCard personName="Maribel" img="/images/team/cpb/c-maribel.jpg" />
-          <TeamCard personName="Yuliana" img="/images/team/cpb/c-yuliana.jpg" />
-          <TeamCard personName="Belkis" img="/images/team/cpb/c-belkis.jpg" />
+          <TeamCard personName="Suna" img="/images/team/cpb/c-suna.webp" />
+          <TeamCard personName="Yemi" img="/images/team/cpb/c-yemi.webp" />
+          <TeamCard personName="Idania" img="/images/team/cpb/c-idania.webp" />
+          <TeamCard
+            personName="Florian"
+            img="/images/team/cpb/c-florian.webp"
+          />
+          <TeamCard
+            personName="Maribel"
+            img="/images/team/cpb/c-maribel.webp"
+          />
+          <TeamCard
+            personName="Yuliana"
+            img="/images/team/cpb/c-yuliana.webp"
+          />
+          <TeamCard personName="Belkis" img="/images/team/cpb/c-belkis.webp" />
           <TeamCard
             personName="Maricela"
-            img="/images/team/cpb/c-maricela.jpg"
+            img="/images/team/cpb/c-maricela.webp"
           />
-          <TeamCard personName="Rosa" img="/images/team/cpb/c-rosa.jpg" />
+          <TeamCard personName="Rosa" img="/images/team/cpb/c-rosa.webp" />
           <TeamCard
             personName="Marianela"
-            img="/images/team/cpb/c-marianela.jpg"
+            img="/images/team/cpb/c-marianela.webp"
           />
           <TeamCard
             personName="Lysmalier"
-            img="/images/team/cpb/c-lysmalier.jpg"
+            img="/images/team/cpb/c-lysmalier.webp"
           />
-          <TeamCard personName="Maria" img="/images/team/cpb/c-maria.jpg" />
+          <TeamCard personName="Maria" img="/images/team/cpb/c-maria.webp" />
           <TeamCard
             personName="Niurquys"
-            img="/images/team/cpb/c-niurquys.jpg"
+            img="/images/team/cpb/c-niurquys.webp"
           />
           <TeamCard
             personName="Aracelis"
-            img="/images/team/cpb/c-aracelis.jpg"
+            img="/images/team/cpb/c-aracelis.webp"
           />
-          <TeamCard personName="Darys" img="/images/team/cpb/c-darys.jpg" />
-          <TeamCard personName="Daniela" img="/images/team/cpb/c-daniela.jpg" />
+          <TeamCard personName="Darys" img="/images/team/cpb/c-darys.webp" />
+          <TeamCard
+            personName="Daniela"
+            img="/images/team/cpb/c-daniela.webp"
+          />
         </div>
       </div>
     </div>
