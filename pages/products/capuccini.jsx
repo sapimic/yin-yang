@@ -122,18 +122,46 @@ const capuccini = () => {
             type="Advanced cream"
             price="$118"
           />
+          <ProductCard
+            img="/images/products/capuccini/green-scrub.webp"
+            name="Green Soul Scrub"
+            type="Body exfoliating cream"
+            price="$47"
+          />
+          <ProductCard
+            img="/images/products/capuccini/supreme-shave.webp"
+            name="Supreme Shave"
+            type="Silky smooth"
+            price="$34"
+          />
+          <ProductCard
+            img="/images/products/capuccini/finishave.webp"
+            name="Finishave"
+            type="Smooth skin"
+            price="$69"
+          />
+          <ProductCard
+            img="/images/products/capuccini/srns-eyes.webp"
+            name="SRNS Detox Eye"
+            type="Eye cream"
+            price="$68"
+          />
+          <ProductCard
+            img="/images/products/capuccini/serum-hyaluronic.webp"
+            name="Hyaluronic 3D"
+            type="Moisturing serum"
+            price="$65"
+          />
         </div>
-        <Link href="/team">
-          <a className="button mt-80">
-            <FaUsers
-              style={{
-                verticalAlign: "middle",
-                fontSize: "20px",
-                marginRight: "10px",
-              }}
-            />
-            Contact Team
-          </a>
+        <Link href="/team" className="button mt-80">
+          <FaUsers
+            style={{
+              verticalAlign: "middle",
+              fontSize: "20px",
+              marginRight: "10px",
+            }}
+          />
+          Contact Team
         </Link>
       </div>
     </div>

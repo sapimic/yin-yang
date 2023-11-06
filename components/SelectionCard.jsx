@@ -5,7 +5,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 const SelectionCard = ({ img, link, linkText }) => {
   return (
-    <Link href={link}>
+    <Link href={link} legacyBehavior>
       <div className={styles.selection_container}>
         <div className={styles.selection_card}>
           <img

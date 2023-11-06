@@ -3,13 +3,14 @@ import React from "react";
 import Heading from "../../components/Heading";
 import SelectionCard from "../../components/SelectionCard";
 
-const index = () => {
+const Services = () => {
   return (
     <div className="container">
       <Head>
         <title>Yin Yang Spa - Services</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
+
       <Heading
         mainHeading="Our Services"
         subHeading="Select one of the featured services."
@@ -58,4 +59,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Services;

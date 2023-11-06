@@ -11,7 +11,6 @@ import { FaMobileAlt } from "react-icons/fa";
 import styles from "../styles/Home.module.scss";
 import Popup from "../components/Popup";
 import SelectionCard from "../components/SelectionCard";
-import ReservationForm from "../components/ReservationForm";
 
 export default function Home() {
   return (
@@ -20,8 +19,6 @@ export default function Home() {
         <title>Yin Yang Spa</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
-
-      <ReservationForm />
 
       <div className={styles.logo}>
         <Image src={logo} alt="Vercel Logo" width={160} height={100} />
@@ -74,17 +71,15 @@ export default function Home() {
             img="/images/home/bar.svg"
           />
         </div>
-        <Link href="/team">
-          <a className="button mt-20">
-            <FaMobileAlt
-              style={{
-                verticalAlign: "middle",
-                fontSize: "20px",
-                marginRight: "10px",
-              }}
-            />
-            Contact Team
-          </a>
+        <Link href="/team" className="button mt-20">
+          <FaMobileAlt
+            style={{
+              verticalAlign: "middle",
+              fontSize: "20px",
+              marginRight: "10px",
+            }}
+          />
+          Contact Team
         </Link>
       </div>
 

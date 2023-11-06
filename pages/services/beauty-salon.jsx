@@ -22,17 +22,15 @@ const BeautySalon = () => {
           <ServiceCard img="/images/services/beauty-salon/bs-3.webp" />
           <ServiceCard img="/images/services/beauty-salon/bs-4.webp" />
         </div>
-        <Link href="/team">
-          <a className="button">
-            <FaUsers
-              style={{
-                verticalAlign: "middle",
-                fontSize: "20px",
-                marginRight: "10px",
-              }}
-            />
-            Contact Team
-          </a>
+        <Link href="/team" className="button">
+          <FaUsers
+            style={{
+              verticalAlign: "middle",
+              fontSize: "20px",
+              marginRight: "10px",
+            }}
+          />
+          Contact Team
         </Link>
       </div>
     </div>

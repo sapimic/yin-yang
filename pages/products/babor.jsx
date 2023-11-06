@@ -249,17 +249,15 @@ const Babor = () => {
             price="$52"
           />
         </div>
-        <Link href="/team">
-          <a className="button mt-80">
-            <FaUsers
-              style={{
-                verticalAlign: "middle",
-                fontSize: "20px",
-                marginRight: "10px",
-              }}
-            />
-            Contact Team
-          </a>
+        <Link href="/team" className="button mt-80">
+          <FaUsers
+            style={{
+              verticalAlign: "middle",
+              fontSize: "20px",
+              marginRight: "10px",
+            }}
+          />
+          Contact Team
         </Link>
       </div>
     </div>

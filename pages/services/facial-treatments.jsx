@@ -25,17 +25,15 @@ const FacialTreatments = () => {
           <ServiceCard img="/images/services/facial-treatments/ft-3.webp" />
           <ServiceCard img="/images/services/facial-treatments/ft-4.webp" />
         </div>
-        <Link href="/team">
-          <a className="button">
-            <FaUsers
-              style={{
-                verticalAlign: "middle",
-                fontSize: "20px",
-                marginRight: "10px",
-              }}
-            />
-            Contact Team
-          </a>
+        <Link href="/team" className="button">
+          <FaUsers
+            style={{
+              verticalAlign: "middle",
+              fontSize: "20px",
+              marginRight: "10px",
+            }}
+          />
+          Contact Team
         </Link>
       </div>
     </div>

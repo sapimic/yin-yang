@@ -3,7 +3,7 @@ import Head from "next/head";
 import Heading from "../../components/Heading";
 import SelectionCard from "../../components/SelectionCard";
 
-const index = () => {
+const Products = () => {
   return (
     <div className="container">
       <Head>
@@ -25,8 +25,8 @@ const index = () => {
           />
           <SelectionCard
             img="/images/products/anubis-logo.webp"
-            link="/products/anubis"
-            linkText="Anubis"
+            link="/products/atache"
+            linkText="Atache"
           />
           <SelectionCard
             img="/images/products/alaila-logo.webp"
@@ -44,4 +44,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Products;

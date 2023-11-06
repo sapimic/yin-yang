@@ -3,7 +3,7 @@ import Head from "next/head";
 import Heading from "../../components/Heading";
 import SelectionCard from "../../components/SelectionCard";
 
-const index = () => {
+const Team = () => {
   return (
     <div className="container">
       <Head>
@@ -36,4 +36,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Team;

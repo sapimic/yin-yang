@@ -3,7 +3,13 @@ import Image from "next/image";
 import logo from "../public/images/home/yinyang-logo.svg";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { FaHome, FaList, FaUserFriends, FaSpa } from "react-icons/fa";
+import {
+  FaHome,
+  FaList,
+  FaUserFriends,
+  FaSpa,
+  FaCreditCard,
+} from "react-icons/fa";
 
 const Navbar = () => {
   const router = useRouter();
@@ -16,47 +22,56 @@ const Navbar = () => {
         </div>
         <ul>
           <li className={styles.li}>
-            <Link href="/">
-              <a className={router.pathname == "/" ? styles.active : ""}>
-                <FaHome className={styles.icon} />
-                Home
-              </a>
+            <Link
+              href="/"
+              className={router.pathname.endsWith("/") ? styles.active : ""}
+            >
+              <FaHome className={styles.icon} />
+              Home
             </Link>
           </li>
           <li>
-            <Link href="/services">
-              <a
-                className={
-                  router.pathname.startsWith("/services") ? styles.active : ""
-                }
-              >
-                <FaList className={styles.icon} />
-                Services
-              </a>
+            <Link
+              href="/services"
+              className={
+                router.pathname.startsWith("/services") ? styles.active : ""
+              }
+            >
+              <FaList className={styles.icon} />
+              Services
             </Link>
           </li>
           <li>
-            <Link href="/products">
-              <a
-                className={
-                  router.pathname.startsWith("/products") ? styles.active : ""
-                }
-              >
-                <FaSpa className={styles.icon} />
-                Products
-              </a>
+            <Link
+              href="/products"
+              className={
+                router.pathname.startsWith("/products") ? styles.active : ""
+              }
+            >
+              <FaSpa className={styles.icon} />
+              Products
             </Link>
           </li>
           <li>
-            <Link href="/team">
-              <a
-                className={
-                  router.pathname.startsWith("/team") ? styles.active : ""
-                }
-              >
-                <FaUserFriends className={styles.icon} />
-                Team
-              </a>
+            <Link
+              href="/team"
+              className={
+                router.pathname.startsWith("/team") ? styles.active : ""
+              }
+            >
+              <FaUserFriends className={styles.icon} />
+              Team
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/payments"
+              className={
+                router.pathname.startsWith("/payments") ? styles.active : ""
+              }
+            >
+              <FaCreditCard className={styles.icon} />
+              Payments
             </Link>
           </li>
         </ul>
