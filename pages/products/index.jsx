@@ -24,9 +24,9 @@ const Products = () => {
             linkText="Babor"
           />
           <SelectionCard
-            img="/images/products/anubis-logo.webp"
-            link="/products/atache"
-            linkText="Atache"
+            img="/images/products/germaine-logo.webp"
+            link="/products/capuccini"
+            linkText="Capuccini"
           />
           <SelectionCard
             img="/images/products/alaila-logo.webp"
@@ -34,9 +34,14 @@ const Products = () => {
             linkText="Alaila"
           />
           <SelectionCard
-            img="/images/products/germaine-logo.webp"
-            link="/products/capuccini"
-            linkText="Germaine de Capuccini"
+            img="/images/products/atache-logo.webp"
+            link="/products/atache"
+            linkText="Atache"
+          />
+          <SelectionCard
+            img="/images/products/harmony-logo.webp"
+            link="/products/harmony"
+            linkText="Harmony"
           />
         </div>
       </div>

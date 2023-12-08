@@ -6,10 +6,11 @@
 
     .product_image {
         cursor: pointer;
-        border-radius: 20px;
+        border-radius: 10px;
         transition: all 0.3s;
         width: 270px;
         height: auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
 
     &:hover {

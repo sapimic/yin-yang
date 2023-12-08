@@ -195,7 +195,7 @@ const Babor = () => {
             price="$94"
           />
           <ProductCard
-            img="/images/products/babor/active-night.webp"
+            img="/images/products/babor/fluid-active-night.webp"
             name="Fluid Active Night"
             type="Anti-aging"
             price="$52"

@@ -63,7 +63,7 @@ const Navbar = () => {
               Team
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               href="/payments"
               className={
@@ -73,7 +73,7 @@ const Navbar = () => {
               <FaCreditCard className={styles.icon} />
               Payments
             </Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </>

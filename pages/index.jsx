@@ -9,7 +9,6 @@ import VideoHero from "../components/VideoHero";
 import Image from "next/image";
 import { FaMobileAlt } from "react-icons/fa";
 import styles from "../styles/Home.module.scss";
-import Popup from "../components/Popup";
 import SelectionCard from "../components/SelectionCard";
 
 export default function Home() {
@@ -35,7 +34,7 @@ export default function Home() {
         <div className="flex-row space-evenly">
           <SelectionCard
             img="/images/services/spa-menu.webp"
-            link="/services/menu"
+            link="/services/spa-menu"
             linkText="Our Spa Menu"
           />
         </div>
