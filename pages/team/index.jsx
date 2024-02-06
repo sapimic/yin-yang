@@ -19,16 +19,16 @@ const Team = () => {
       <div className="flex-column justify-center align-center">
         <div className="flex-row justify-center align-center">
           <SelectionCard
-            img="/images/team/cpb.webp"
-            heading="CPB"
-            link="/team/cpb"
-            linkText="Spa in Cofresi Palm Beach"
-          />
-          <SelectionCard
             img="/images/team/tropical.webp"
             heading="Tropical"
             link="/team/tropical"
             linkText="Spa in Tropical"
+          />
+          <SelectionCard
+            img="/images/team/cpb.webp"
+            heading="CPB"
+            link="/team/cpb"
+            linkText="Spa in Cofresi Palm Beach"
           />
         </div>
       </div>
