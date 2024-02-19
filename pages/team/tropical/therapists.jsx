@@ -20,10 +20,6 @@ const therapists = () => {
             img="/images/team/tropical/t-diana.webp"
           />
           <TeamCard
-            personName="Naftaly"
-            img="/images/team/tropical/t-naftaly.webp"
-          />
-          <TeamCard
             personName="Albany"
             img="/images/team/tropical/t-albany.webp"
           />
@@ -36,20 +32,21 @@ const therapists = () => {
             img="/images/team/tropical/t-doraliza.webp"
           />
           <TeamCard
-            personName="Karen"
-            img="/images/team/tropical/t-karen.webp"
-          />
-          <TeamCard
             personName="Paola"
             img="/images/team/tropical/t-paola.webp"
           />
           <TeamCard
-            personName="Gleibi"
-            img="/images/team/tropical/t-gleibi.webp"
+            personName="Aracelis"
+            img="/images/team/tropical/t-aracelis.webp"
+          />
+          <TeamCard personName="Rosa" img="/images/team/tropical/t-rosa.webp" />
+          <TeamCard
+            personName="Lysmalier"
+            img="/images/team/tropical/t-lysmalier.webp"
           />
           <TeamCard
-            personName="Romelia"
-            img="/images/team/tropical/t-romelia.webp"
+            personName="Gleibi"
+            img="/images/team/tropical/t-gleibi.webp"
           />
           <TeamCard
             personName="Denia"
@@ -62,11 +59,6 @@ const therapists = () => {
           <TeamCard
             personName="Yanelys"
             img="/images/team/tropical/t-yanelys.webp"
-          />
-          <TeamCard personName="Nery" img="/images/team/tropical/t-nery.webp" />
-          <TeamCard
-            personName="Vianka"
-            img="/images/team/tropical/t-vianka.webp"
           />
           <TeamCard
             personName="Mariana"

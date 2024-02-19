@@ -33,34 +33,32 @@ const Therapists = () => {
             personName="Yuliana"
             img="/images/team/cpb/c-yuliana.webp"
           />
-          <TeamCard personName="Belkis" img="/images/team/cpb/c-belkis.webp" />
           <TeamCard
             personName="Maricela"
             img="/images/team/cpb/c-maricela.webp"
           />
-          <TeamCard personName="Rosa" img="/images/team/cpb/c-rosa.webp" />
+          <TeamCard
+            personName="Vianka"
+            img="/images/team/cpb/c-vianka.webp"
+          />
+          <TeamCard
+            personName="Romelia"
+            img="/images/team/cpb/c-romelia.webp"
+          />
+          <TeamCard
+            personName="Naftaly"
+            img="/images/team/cpb/c-naftaly.webp"
+          />
           <TeamCard
             personName="Marianela"
             img="/images/team/cpb/c-marianela.webp"
-          />
-          <TeamCard
-            personName="Lysmalier"
-            img="/images/team/cpb/c-lysmalier.webp"
           />
           <TeamCard personName="Maria" img="/images/team/cpb/c-maria.webp" />
           <TeamCard
             personName="Niurquys"
             img="/images/team/cpb/c-niurquys.webp"
           />
-          <TeamCard
-            personName="Aracelis"
-            img="/images/team/cpb/c-aracelis.webp"
-          />
           <TeamCard personName="Darys" img="/images/team/cpb/c-darys.webp" />
-          <TeamCard
-            personName="Daniela"
-            img="/images/team/cpb/c-daniela.webp"
-          />
         </div>
       </div>
     </div>
