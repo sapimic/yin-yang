@@ -24,79 +24,66 @@ const Atache = () => {
             img="/images/products/harmony/coconut-massage-oil.webp"
             name="Coconut Oil"
             type="Massage oil"
-            price="$16"
           />
           <ProductCard
             img="/images/products/harmony/vitality-boost.webp"
             name="Vitality Boost"
             type="Hand bracelet"
-            price="$32"
           />
           <ProductCard
             img="/images/products/harmony/energy-boost.webp"
             name="Energy Boost"
             type="Hand bracelet"
-            price="$32"
           />
           <ProductCard
             img="/images/products/harmony/tree-of-life.webp"
             name="Tree of Life"
             type="Hand bracelet"
-            price="$27"
           />
           <ProductCard
             img="/images/products/harmony/chakra-crown.webp"
             name="Chakra Crown"
             type="Hand bracelet"
-            price="$41"
           />
           <ProductCard
             img="/images/products/harmony/good-vibrations.webp"
             name="Good Vibrations"
             type="Hand bracelet"
-            price="$50"
           />
           <ProductCard
             img="/images/products/harmony/double-energy.webp"
             name="Double Energy"
             type="Hand bracelet"
-            price="$50"
           />
           <ProductCard
             img="/images/products/harmony/essential-oils.webp"
             name="Essential Oils"
             type="Aromatic oils"
-            price="$9-$13"
           />
           <ProductCard
             img="/images/products/harmony/relaxing-tangerine-aromatic-oil.webp"
             name="Stress Relieving"
             type="Aromatic oils"
-            price="$14"
           />
           <ProductCard
             img="/images/products/harmony/lavender-roll-on.webp"
             name="Lavender Roll On"
             type="Aromatic oils"
-            price="$12"
           />
           <ProductCard
             img="/images/products/harmony/lavender-roll-on.webp"
             name="Eucalyptus Roll On"
             type="Aromatic oils"
-            price="$12"
           />
           <ProductCard
             img="/images/products/harmony/lavender-mini-roll-on.webp"
             name="Lavender Mini"
             type="Aromatic oils"
-            price="$10"
           />
           <ProductCard
             img="/images/products/harmony/eucalyptus-mini-aromatic-oil.webp"
             name="Eucalyptus Mini"
             type="Aromatic oils"
-            price="$10"
           />
         </div>
         <Link href="/team" className="button mt-80">

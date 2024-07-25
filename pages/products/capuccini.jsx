@@ -24,133 +24,111 @@ const capuccini = () => {
             img="/images/products/capuccini/tlift-serum.webp"
             name="Timeexpert Lift Vector"
             type="Redefines facial contour"
-            price="$172"
           />
           <ProductCard
             img="/images/products/capuccini/tlift-supreme.webp"
             name="Timeexpert Supreme Definition"
             type="Deeply hydrating"
-            price="$96"
           />
           <ProductCard
             img="/images/products/capuccini/tlift-neck.webp"
             name="Timeexpert Lift Neck"
             type="Firming cream"
-            price="$94"
           />
           <ProductCard
             img="/images/products/capuccini/tlift-eye.webp"
             name="Timeexpert Lift Eye"
             type="Contour cream"
-            price="$93"
           />
           <ProductCard
             img="/images/products/capuccini/bcalm-sos.webp"
             name="B-Calm SOS"
             type="Intensive care"
-            price="$94"
           />
           <ProductCard
             img="/images/products/capuccini/trides-night.webp"
             name="Timeexpert Rides Night"
             type="Renewing mask"
-            price="$70"
           />
           <ProductCard
             img="/images/products/capuccini/tradiance-c+.webp"
             name="Timeexpert Radiance C+"
             type="Antioxidant"
-            price="$76"
           />
           <ProductCard
             img="/images/products/capuccini/excel-pollution.webp"
             name="Excel Therapy O2"
             type="Skin combination"
-            price="$84"
           />
           <ProductCard
             img="/images/products/capuccini/men-aqua-gel.webp"
             name="Aqua Clean Gel"
             type="Men's wash-off cleanser"
-            price="$47"
           />
           <ProductCard
             img="/images/products/capuccini/men-energy-eyes.webp"
             name="Energy Eyes Roll-on"
             type="Men's anti-fatigue serum"
-            price="$56"
           />
           <ProductCard
             img="/images/products/capuccini/men-powerage.webp"
             name="Powerage"
             type="Men's anti-aging"
-            price="$71"
           />
           <ProductCard
             img="/images/products/capuccini/men-force-revive.webp"
             name="Force Revive"
             type="Men's anti-aging serum"
-            price="$85"
           />
           <ProductCard
             img="/images/products/capuccini/sperience-cinnamon.webp"
             name="Sperience Cinnamon"
             type="Scrub"
-            price="$79"
           />
           <ProductCard
             img="/images/products/capuccini/sperience-spa.webp"
             name="Sperience Spa"
             type="Exfoliating"
-            price="$72"
           />
           <ProductCard
             img="/images/products/capuccini/sperience-essence.webp"
             name="Sperience Essence"
             type="Mediterranean cream"
-            price="$79"
           />
           <ProductCard
             img="/images/products/capuccini/hydro-gel.webp"
             name="Hydro-gel Aloe Vera"
             type="Hydration treatment"
-            price="$33"
           />
           <ProductCard
             img="/images/products/capuccini/tsrns-pro.webp"
             name="Timeexpert SRNS Pro"
             type="Advanced cream"
-            price="$118"
           />
           <ProductCard
             img="/images/products/capuccini/green-scrub.webp"
             name="Green Soul Scrub"
             type="Body exfoliating cream"
-            price="$47"
           />
           <ProductCard
             img="/images/products/capuccini/supreme-shave.webp"
             name="Supreme Shave"
             type="Silky smooth"
-            price="$34"
           />
           <ProductCard
             img="/images/products/capuccini/finishave.webp"
             name="Finishave"
             type="Smooth skin"
-            price="$69"
           />
           <ProductCard
             img="/images/products/capuccini/srns-eyes.webp"
             name="SRNS Detox Eye"
             type="Eye cream"
-            price="$68"
           />
           <ProductCard
             img="/images/products/capuccini/serum-hyaluronic.webp"
             name="Hyaluronic 3D"
             type="Moisturing serum"
-            price="$65"
           />
         </div>
         <Link href="/team" className="button mt-80">
