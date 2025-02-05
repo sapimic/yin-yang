@@ -19,8 +19,6 @@ const Therapists = () => {
       <div className="flex-column justify-center align-center">
         <div className="flex-row justify-center align-center">
           <TeamCard personName="Suna" img="/images/team/cpb/c-suna.webp" />
-          <TeamCard personName="Yemi" img="/images/team/cpb/c-yemi.webp" />
-          <TeamCard personName="Idania" img="/images/team/cpb/c-idania.webp" />
           <TeamCard
             personName="Florian"
             img="/images/team/cpb/c-florian.webp"
@@ -34,14 +32,6 @@ const Therapists = () => {
             img="/images/team/cpb/c-yuliana.webp"
           />
           <TeamCard
-            personName="Maricela"
-            img="/images/team/cpb/c-maricela.webp"
-          />
-          <TeamCard
-            personName="Vianka"
-            img="/images/team/cpb/c-vianka.webp"
-          />
-          <TeamCard
             personName="Romelia"
             img="/images/team/cpb/c-romelia.webp"
           />
@@ -49,16 +39,11 @@ const Therapists = () => {
             personName="Naftaly"
             img="/images/team/cpb/c-naftaly.webp"
           />
-          <TeamCard
-            personName="Marianela"
-            img="/images/team/cpb/c-marianela.webp"
-          />
           <TeamCard personName="Maria" img="/images/team/cpb/c-maria.webp" />
           <TeamCard
             personName="Niurquys"
             img="/images/team/cpb/c-niurquys.webp"
           />
-          <TeamCard personName="Darys" img="/images/team/cpb/c-darys.webp" />
         </div>
       </div>
     </div>
