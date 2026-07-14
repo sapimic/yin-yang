@@ -7,35 +7,30 @@ const index = () => {
   return (
     <div className="container">
       <Head>
-        <title>Yin Yang Spa - Tropical</title>
+        <title>Yin Yang Spa - CPB</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Heading
-        mainHeading="Tropical Team"
+        mainHeading="Cofresi Palm Beach Contacts"
         subHeading="Choose from our managers, reception, advisors and therapists."
       />
 
       <div className="flex-column justify-center align-center">
         <div className="flex-row justify-center align-center">
           <SelectionCard
-            img="/images/team/reception.webp"
-            link="/team/tropical/reception"
+            img="/images/contacts/reception.webp"
+            link="/contacts/cpb/reception"
             linkText="Our Reception"
           />
           <SelectionCard
-            img="/images/team/advisors.webp"
-            link="/team/tropical/advisors"
+            img="/images/contacts/advisors.webp"
+            link="/contacts/cpb/advisors"
             linkText="Our Advisors"
           />
           <SelectionCard
-            img="/images/team/therapists.webp"
-            link="/team/tropical/therapists"
-            linkText="Our Therapists"
-          />
-          <SelectionCard
-            img="/images/team/managers.webp"
-            link="/team/tropical/managers"
+            img="/images/contacts/managers.webp"
+            link="/contacts/cpb/managers"
             linkText="Our Managers"
           />
         </div>

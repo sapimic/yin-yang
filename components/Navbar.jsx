@@ -54,13 +54,13 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href="/team"
+              href="/contacts"
               className={
-                router.pathname.startsWith("/team") ? styles.active : ""
+                router.pathname.startsWith("/contacts") ? styles.active : ""
               }
             >
               <FaUserFriends className={styles.icon} />
-              Team
+              Contacts
             </Link>
           </li>
           {/* <li>

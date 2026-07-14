@@ -3,31 +3,31 @@ import Head from "next/head";
 import Heading from "../../components/Heading";
 import SelectionCard from "../../components/SelectionCard";
 
-const Team = () => {
+const Contacts = () => {
   return (
     <div className="container">
       <Head>
-        <title>Yin Yang Spa - Team</title>
+        <title>Yin Yang Spa - Contacts</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Heading
-        mainHeading="Our Team"
-        subHeading="Choose our team from the Cofresi Palm Beach Spa or the Tropical Spa."
+        mainHeading="Our Contacts"
+        subHeading="Choose our contacts from the Cofresi Palm Beach Spa or the Tropical Spa."
       />
 
       <div className="flex-column justify-center align-center">
         <div className="flex-row justify-center align-center">
           <SelectionCard
-            img="/images/team/tropical.webp"
+            img="/images/contacts/tropical.webp"
             heading="Tropical"
-            link="/team/tropical"
+            link="/contacts/tropical"
             linkText="Spa in Tropical"
           />
           <SelectionCard
-            img="/images/team/cpb.webp"
+            img="/images/contacts/cpb.webp"
             heading="CPB"
-            link="/team/cpb"
+            link="/contacts/cpb"
             linkText="Spa in Cofresi Palm Beach"
           />
         </div>
@@ -36,4 +36,4 @@ const Team = () => {
   );
 };
 
-export default Team;
+export default Contacts;

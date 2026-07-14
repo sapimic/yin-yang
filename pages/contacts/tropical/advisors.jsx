@@ -15,19 +15,19 @@ const advisors = () => {
         <div className="flex-row justify-center align-center">
           <TeamCard
             personName="Jean"
-            img="/images/team/tropical/t-a-jean.webp"
+            img="/images/contacts/tropical/t-a-jean.webp"
             contactable="true"
             number="https://wa.me/18299016556"
           />
           <TeamCard
             personName="Gilberto"
-            img="/images/team/tropical/t-a-gilberto.webp"
+            img="/images/contacts/tropical/t-a-gilberto.webp"
             contactable="true"
             number="https://wa.me/18099010166"
           />
           <TeamCard
             personName="Jancarlos"
-            img="/images/team/tropical/t-a-jancarlos.webp"
+            img="/images/contacts/tropical/t-a-jancarlos.webp"
             contactable="true"
             number="https://wa.me/18296046662"
           />
