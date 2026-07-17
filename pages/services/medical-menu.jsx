@@ -3,7 +3,7 @@ import Head from "next/head";
 import Heading from "../../components/Heading";
 import MenuItem from "../../components/MenuItem";
 import Link from "next/link";
-import { FaUsers } from "react-icons/fa";
+import { FaNewspaper, FaUsers } from "react-icons/fa";
 
 const menu = () => {
   return (
@@ -68,7 +68,8 @@ const menu = () => {
           </MenuItem>
         </div>
 
-        <Link href="/team" className="button">
+        <div className="flex-row justify-center">
+          <Link href="/contacts" className="button">
           <FaUsers
             style={{
               verticalAlign: "middle",
@@ -76,8 +77,20 @@ const menu = () => {
               marginRight: "10px",
             }}
           />
-          Contact Team
+          Contacts
         </Link>
+        <Link href="/brochures/menu-suero.pdf" target="_blank" className="button">
+          <FaNewspaper
+            style={{
+              verticalAlign: "middle",
+              fontSize: "20px",
+              marginRight: "10px",
+            }}
+          />
+          Brochure
+        </Link>
+      </div>
+
       </div>
     </div>
   );

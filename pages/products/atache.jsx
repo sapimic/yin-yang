@@ -81,7 +81,7 @@ const Atache = () => {
             type="Makeup Remover"
           />
         </div>
-        <Link href="/team" className="button mt-80">
+        <Link href="/contacts" className="button mt-80">
           <FaUsers
             style={{
               verticalAlign: "middle",
@@ -89,7 +89,7 @@ const Atache = () => {
               marginRight: "10px",
             }}
           />
-          Contact Team
+          Contacts
         </Link>
       </div>
     </div>

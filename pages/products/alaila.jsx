@@ -53,7 +53,7 @@ const Alaila = () => {
             type="Skin beautifier"
           />
         </div>
-        <Link href="/team" className="button mt-80">
+        <Link href="/contacts" className="button mt-80">
           <FaUsers
             style={{
               verticalAlign: "middle",
@@ -61,7 +61,7 @@ const Alaila = () => {
               marginRight: "10px",
             }}
           />
-          Contact Team
+          Contacts
         </Link>
       </div>
     </div>

@@ -131,7 +131,7 @@ const capuccini = () => {
             type="Moisturing serum"
           />
         </div>
-        <Link href="/team" className="button mt-80">
+        <Link href="/contacts" className="button mt-80">
           <FaUsers
             style={{
               verticalAlign: "middle",
@@ -139,7 +139,7 @@ const capuccini = () => {
               marginRight: "10px",
             }}
           />
-          Contact Team
+          Contacts
         </Link>
       </div>
     </div>

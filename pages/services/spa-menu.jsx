@@ -91,7 +91,7 @@ const menu = () => {
           </MenuItem>
         </div>
 
-        <Link href="/team" className="button">
+        <Link href="/contacts" className="button">
           <FaUsers
             style={{
               verticalAlign: "middle",
@@ -99,7 +99,7 @@ const menu = () => {
               marginRight: "10px",
             }}
           />
-          Contact Team
+          Contacts
         </Link>
       </div>
     </div>

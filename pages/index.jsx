@@ -70,7 +70,7 @@ export default function Home() {
             img="/images/home/bar.svg"
           />
         </div>
-        <Link href="/team" className="button mt-20">
+        <Link href="/contacts" className="button mt-20">
           <FaMobileAlt
             style={{
               verticalAlign: "middle",
@@ -78,7 +78,7 @@ export default function Home() {
               marginRight: "10px",
             }}
           />
-          Contact Team
+          Contacts
         </Link>
       </div>
 

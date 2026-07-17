@@ -36,6 +36,15 @@ const Reception = () => {
             mail="mailto:recepcionista.yinyangspa@
             lhvcresorts.com"
           />
+          <TeamCard
+            personName="Martha"
+            img="/images/contacts/cpb/c-r-martha.webp"
+            number="https://wa.me/18098663867"
+            contactable="true"
+            mailable="true"
+            mail="mailto:recepcionista.yinyangspa@
+            lhvcresorts.com"
+          />
         </div>
       </div>
     </div>

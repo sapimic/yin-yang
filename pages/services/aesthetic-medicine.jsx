@@ -35,7 +35,7 @@ const AestheticMedicine = () => {
           <ServiceCard img="/images/services/aesthetic-medicine/am-4.webp" />
         </div>
         <div className="flex-row justify-center">
-          <Link href="/team" className="button">
+          <Link href="/contacts" className="button">
             <FaUsers
               style={{
                 verticalAlign: "middle",
@@ -43,7 +43,7 @@ const AestheticMedicine = () => {
                 marginRight: "10px",
               }}
             />
-            Contact Team
+            Contacts
           </Link>
         </div>
       </div>

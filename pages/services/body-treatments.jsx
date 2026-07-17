@@ -34,7 +34,7 @@ const BodyTreatments = () => {
           <ServiceCard img="/images/services/body-treatments/bt-3.webp" />
           <ServiceCard img="/images/services/body-treatments/bt-4.webp" />
         </div>
-        <Link href="/team" className="button">
+        <Link href="/contacts" className="button">
           <FaUsers
             style={{
               verticalAlign: "middle",
@@ -42,7 +42,7 @@ const BodyTreatments = () => {
               marginRight: "10px",
             }}
           />
-          Contact Team
+          Contacts
         </Link>
       </div>
     </div>
