@@ -70,16 +70,6 @@ export default function Home() {
             img="/images/home/bar.svg"
           />
         </div>
-        <Link href="/contacts" className="button mt-20">
-          <FaMobileAlt
-            style={{
-              verticalAlign: "middle",
-              fontSize: "20px",
-              marginRight: "10px",
-            }}
-          />
-          Contacts
-        </Link>
       </div>
 
       <VideoHero />

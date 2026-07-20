@@ -34,18 +34,6 @@ const AestheticMedicine = () => {
           <ServiceCard img="/images/services/aesthetic-medicine/am-3.webp" />
           <ServiceCard img="/images/services/aesthetic-medicine/am-4.webp" />
         </div>
-        <div className="flex-row justify-center">
-          <Link href="/contacts" className="button">
-            <FaUsers
-              style={{
-                verticalAlign: "middle",
-                fontSize: "20px",
-                marginRight: "10px",
-              }}
-            />
-            Contacts
-          </Link>
-        </div>
       </div>
     </div>
   );

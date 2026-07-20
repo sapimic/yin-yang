@@ -22,16 +22,6 @@ const Massages = () => {
           <ServiceCard img="/images/services/massages/m-3.webp" />
           <ServiceCard img="/images/services/massages/m-4.webp" />
         </div>
-        <Link href="/contacts" className="button">
-          <FaUsers
-            style={{
-              verticalAlign: "middle",
-              fontSize: "20px",
-              marginRight: "10px",
-            }}
-          />
-          Contacts
-        </Link>
       </div>
     </div>
   );

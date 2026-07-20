@@ -67,18 +67,6 @@ const menu = () => {
             </p>
           </MenuItem>
         </div>
-
-        <div className="flex-row justify-center">
-          <Link href="/contacts" className="button">
-          <FaUsers
-            style={{
-              verticalAlign: "middle",
-              fontSize: "20px",
-              marginRight: "10px",
-            }}
-          />
-          Contacts
-        </Link>
         <Link href="/brochures/menu-suero.pdf" target="_blank" className="button">
           <FaNewspaper
             style={{
@@ -89,8 +77,6 @@ const menu = () => {
           />
           Brochure
         </Link>
-      </div>
-
       </div>
     </div>
   );

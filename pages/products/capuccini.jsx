@@ -19,7 +19,7 @@ const capuccini = () => {
       />
 
       <div className="flex-column justify-center align-center">
-        <div className="flex-row justify-center align-center gap-150">
+        <div className="flex-row justify-center align-center gap-150 p-40">
           <ProductCard
             img="/images/products/capuccini/tlift-serum.webp"
             name="Timeexpert Lift Vector"
@@ -131,16 +131,6 @@ const capuccini = () => {
             type="Moisturing serum"
           />
         </div>
-        <Link href="/contacts" className="button mt-80">
-          <FaUsers
-            style={{
-              verticalAlign: "middle",
-              fontSize: "20px",
-              marginRight: "10px",
-            }}
-          />
-          Contacts
-        </Link>
       </div>
     </div>
   );

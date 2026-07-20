@@ -19,7 +19,7 @@ const Atache = () => {
       />
 
       <div className="flex-column justify-center align-center">
-        <div className="flex-row justify-center align-center gap-150">
+        <div className="flex-row justify-center align-center gap-150 p-40">
           <ProductCard
             img="/images/products/harmony/coconut-massage-oil.webp"
             name="Coconut Oil"
@@ -86,16 +86,6 @@ const Atache = () => {
             type="Aromatic oils"
           />
         </div>
-        <Link href="/contacts" className="button mt-80">
-          <FaUsers
-            style={{
-              verticalAlign: "middle",
-              fontSize: "20px",
-              marginRight: "10px",
-            }}
-          />
-          Contacts
-        </Link>
       </div>
     </div>
   );

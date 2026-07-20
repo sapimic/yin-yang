@@ -90,17 +90,6 @@ const menu = () => {
             <p>Additional Nail Care Services</p>
           </MenuItem>
         </div>
-
-        <Link href="/contacts" className="button">
-          <FaUsers
-            style={{
-              verticalAlign: "middle",
-              fontSize: "20px",
-              marginRight: "10px",
-            }}
-          />
-          Contacts
-        </Link>
       </div>
     </div>
   );

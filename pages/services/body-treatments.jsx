@@ -34,16 +34,6 @@ const BodyTreatments = () => {
           <ServiceCard img="/images/services/body-treatments/bt-3.webp" />
           <ServiceCard img="/images/services/body-treatments/bt-4.webp" />
         </div>
-        <Link href="/contacts" className="button">
-          <FaUsers
-            style={{
-              verticalAlign: "middle",
-              fontSize: "20px",
-              marginRight: "10px",
-            }}
-          />
-          Contacts
-        </Link>
       </div>
     </div>
   );
